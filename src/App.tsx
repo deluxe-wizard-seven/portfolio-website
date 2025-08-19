@@ -341,7 +341,7 @@ const App = () => {
     },
     {
       title: "Technical Developer Intern",
-      company: "BASEL PRACTITIONERS PRIVATE LIMITED",
+      company: "Basel Practitioners",
       period: "December, 2022 - May, 2023",
       location: "Remote",
       description:
