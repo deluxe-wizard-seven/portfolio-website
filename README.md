@@ -7,7 +7,7 @@ This website serves as a showcase of my professional experience, projects and ac
 
 ## 📸 Live Demo
 
-👉 [View Portfolio Website](#)
+👉 [View Portfolio Website](https://dipto-bhattacharjee.netlify.app)
 
 ---
 
