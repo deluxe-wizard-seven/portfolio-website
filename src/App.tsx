@@ -325,16 +325,16 @@ const App = () => {
       period: "April, 2023 - Present",
       location: "Remote",
       description:
-        "Design, build, and deploy scalable backend and cloud-based systems with microservices architecture, integrating AI/ML and real-time collaboration. Lead a 5–7 member team, mentor developers, and set coding standards for high-performance web and AI applications, primarily working with AWS, GCP, and Python.",
+        "Design, build and deploy scalable backend and cloud-based systems with microservices architecture, integrating AI/ML and real-time collaboration. Lead a 5–7 member team, mentor developers and set coding standards for high-performance web and AI applications, primarily working with AWS, GCP and Python.",
       achievements: [
-        "Led full-cycle product development for a complex, feature-rich web application at an early-stage startup — from MVP design to production deployment — owning backend systems on AWS and GCP, as well as infrastructure, DevOps, and ML integrations.",
+        "Led full-cycle product development for a complex, feature-rich web application at an early-stage startup — from MVP design to production deployment — owning backend systems on AWS and GCP, as well as infrastructure, DevOps and ML integrations.",
         "Pioneered architecture decisions that scaled the platform to handle 50k+ monthly requests with high availability, leveraging serverless and containerized services.",
-        "Integrated advanced media workflows, including real-time group audio collaboration, recording, and publishing across multiple platforms, enhancing user engagement and retention.",
-        "Delivered AI-driven features using a blend of Generative AI models, LLMs, and speech enhancement pipelines, enabling automated content creation, categorization, and search at scale.",
+        "Integrated advanced media workflows, including real-time group audio collaboration, recording and publishing across multiple platforms, enhancing user engagement and retention.",
+        "Delivered AI-driven features using a blend of Generative AI models, LLMs and speech enhancement pipelines, enabling automated content creation, categorization and search at scale.",
         "Streamlined deployments through robust CI/CD pipelines across AWS and GCP, reducing release cycles by over 80% while maintaining production stability.",
-        "Engineered cross-cloud orchestration with Docker, Kubernetes, and managed services (ECS, EKS, GKE), enabling modular, fault-tolerant system components.",
-        "Optimized backend performance with intelligent caching, query optimization, and async processing, reducing latency by up to 40%.",
-        "Ensured security and reliability by implementing proactive vulnerability patching, data consistency checks, and robust authentication/authorization flows.",
+        "Engineered cross-cloud orchestration with Docker, Kubernetes and managed services (ECS, EKS, GKE), enabling modular, fault-tolerant system components.",
+        "Optimized backend performance with intelligent caching, query optimisation and async processing, reducing latency by up to 40%.",
+        "Ensured security and reliability by implementing proactive vulnerability patching, data consistency checks and robust authentication/authorization flows.",
         "Mentored and coordinated a multi-disciplinary team, fostering a collaborative environment that consistently met ambitious deadlines in a high-pressure startup context.",
       ],
       url: "https://www.koolio.ai/",
@@ -345,12 +345,12 @@ const App = () => {
       period: "December, 2022 - May, 2023",
       location: "Remote",
       description:
-        "Owned and developed two microservices — the Due Diligence service in a Credit Risk Management Framework and a Data Forecasting service — using Spring Boot (Java), AWS QuickSight, and AWS Amplify. Designed scalable architectures, optimized data pipelines, integrated interactive dashboards, and mentored 5 team members to ensure high-quality delivery.",
+        "Owned and developed two microservices — the Due Diligence service in a Credit Risk Management Framework and a Data Forecasting service — using Spring Boot (Java), AWS QuickSight and AWS Amplify. Designed scalable architectures, optimised data pipelines, integrated interactive dashboards and mentored 5 team members to ensure high-quality delivery.",
       achievements: [
         "Architected the backend and database schema for a Due Diligence microservice within a Credit Risk Management Framework, ensuring scalability and maintainability.",
         "Optimized database performance, enhancing query execution and data processing algorithms to reduce latency by 50%.",
         "Developed a data forecasting and prediction microservice, integrating model outputs with AWS QuickSight via S3 and Athena to deliver dynamic, interactive business insights.",
-        "Implemented frontend features with React, Axios, and Redux, leveraging React Hooks for efficient state management and seamless API integration between backend and frontend systems.",
+        "Implemented frontend features with React, Axios and Redux, leveraging React Hooks for efficient state management and seamless API integration between backend and frontend systems.",
       ],
       url: "https://www.baselpractitioners.com/",
     },
@@ -736,7 +736,7 @@ const App = () => {
                 <b>cloud engineering</b> on <b>AWS</b> and <b>GCP</b>,
                 leveraging <b>Docker</b> and{" "}
                 <b>CI/CD for automated deployments</b> — with a passion for{" "}
-                <b>backend design</b>, <b>performance optimization</b> and{" "}
+                <b>backend design</b>, <b>performance optimisation</b> and{" "}
                 <b>delivering impactful products</b> —{" "}
                 <b>solving real-world problems</b> and{" "}
                 <b>turning ideas into high-performance solutions</b>. Currently
@@ -747,7 +747,7 @@ const App = () => {
                 When I’m not coding, you’ll probably find me on a{" "}
                 <b>motorcycle ride </b>🏍️, <b>exploring new places </b>🌍,{" "}
                 <b>photographing</b> 📷 <b>nature</b> 🌿 and <b>mountains</b>{" "}
-                🏔️, or <b>diving into the latest tech trends </b>👨🏻‍💻 over a cup
+                🏔️ or <b>diving into the latest tech trends </b>👨🏻‍💻 over a cup
                 of <b>coffee</b> ☕.
               </p>
 
