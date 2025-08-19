@@ -403,6 +403,8 @@ const App = () => {
         "Postman",
         "cURL",
         "HTTPie",
+        "Maven",
+        "Bash",
       ],
     },
     {
@@ -432,6 +434,7 @@ const App = () => {
         "MariaDB",
         "Redis",
         "SQLite3",
+        "Prisma",
       ],
     },
     {
