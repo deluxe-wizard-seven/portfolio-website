@@ -320,7 +320,7 @@ const App = () => {
 
   const experiences = [
     {
-      title: "Software Developer Engineer",
+      title: "Software Engineer",
       company: "koolio.ai",
       period: "April, 2023 - Present",
       location: "Remote",
