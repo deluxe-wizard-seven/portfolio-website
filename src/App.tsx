@@ -740,7 +740,7 @@ const App = () => {
                 <b>delivering impactful products</b> —{" "}
                 <b>solving real-world problems</b> and{" "}
                 <b>turning ideas into high-performance solutions</b>. Currently
-                expanding my skill set by learning <b>Go</b>, <b>Terrafrom</b>,{" "}
+                expanding my skill set by learning <b>Go</b>, <b>Terraform</b>,{" "}
                 <b>Kubernetes</b> and <b>Rust</b>.
               </p>
               <p className={`text-lg mb-8 ${themeClasses.textSecondary}`}>
@@ -1026,7 +1026,7 @@ const App = () => {
                 </a>
 
                 <a
-                  href="/assets/resume_dipto_bhattacharjee.pdf"
+                  href="resume_dipto_bhattacharjee.pdf"
                   download="Dipto_Bhattacharjee_Resume.pdf"
                   className="flex items-center space-x-4 icon-shimmy-parent cursor-pointer hover:opacity-80 transition-opacity"
                 >
