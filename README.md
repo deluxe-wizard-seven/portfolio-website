@@ -47,7 +47,6 @@ npm run build
 
 ---
 ## 📬 Contact
-
 If you’d like to connect, feel free to reach out:
 
 * 📧 Email: [diptobhattacharjee6@gmail.com](mailto:diptobhattacharjee6@gmail.com)
