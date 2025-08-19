@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import { useState, useEffect } from "react";
 import {
   Moon,
   Sun,
@@ -8,7 +8,6 @@ import {
   Linkedin,
   Download,
   Mail,
-  ExternalLink,
   Calendar,
   MapPin,
 } from "lucide-react";
@@ -120,7 +119,6 @@ const App = () => {
 
   const [isDark, setIsDark] = useState(true);
   const [isMenuOpen, setIsMenuOpen] = useState(false);
-  const [activeSection, setActiveSection] = useState("home");
   const [skillsVisible, setSkillsVisible] = useState(false);
   const [projectsVisible, setProjectsVisible] = useState(false);
   const [experienceVisible, setExperienceVisible] = useState(false);
