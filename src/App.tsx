@@ -21,6 +21,18 @@ const App = () => {
   const slugs = [
     "markdown",
     "googlecloud",
+    "streamlit",
+    "pypi",
+    "npm",
+    "nodemon",
+    "mongoose",
+    "zsh",
+    "trpc",
+    "archlinux",
+    "netlify",
+    "vite",
+    "swagger",
+    "vercel",
     "stripe",
     "curl",
     "httpie",
@@ -746,9 +758,9 @@ const App = () => {
               <p className={`text-lg mb-8 ${themeClasses.textSecondary}`}>
                 When I’m not coding, you’ll probably find me on a{" "}
                 <b>motorcycle ride </b>🏍️, <b>exploring new places </b>🌍,{" "}
-                <b>photographing</b> 📷 <b>nature</b> 🌿 and <b>mountains</b>{" "}
-                🏔️ or <b>diving into the latest tech trends </b>👨🏻‍💻 over a cup
-                of <b>coffee</b> ☕.
+                <b>photographing</b> 📷 <b>nature</b> 🌿 and <b>mountains</b> 🏔️
+                or <b>diving into the latest tech trends </b>👨🏻‍💻 over a cup of{" "}
+                <b>coffee</b> ☕.
               </p>
 
               <div className="flex space-x-4">
