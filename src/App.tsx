@@ -390,7 +390,6 @@ const App = () => {
         "GraphQL",
         "gRPC",
         "tRPC",
-        "Go",
         "Kotlin",
       ],
     },
