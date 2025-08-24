@@ -461,6 +461,7 @@ const App = () => {
         "OAuth 2.0",
         "Apple SSO",
         "Facebook SSO",
+        "Event Driven Architecture",
       ],
     },
   ];
@@ -737,7 +738,7 @@ const App = () => {
                 <b>delivering impactful products</b> —{" "}
                 <b>solving real-world problems</b> and{" "}
                 <b>turning ideas into high-performance solutions</b>. Currently
-                expanding my skill set by learning <b>Go</b>, <b>Terraform</b>,{" "}
+                expanding my skill set by learning <b>Terraform</b>,{" "}
                 <b>Kubernetes</b> and <b>Rust</b>.
               </p>
               <p className={`text-lg mb-8 ${themeClasses.textSecondary}`}>
