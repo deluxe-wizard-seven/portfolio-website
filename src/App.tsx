@@ -263,7 +263,7 @@ const App = () => {
     {
       title: "Collaborative Notes",
       description:
-        "Real-time collaborative notes app with event-driven backend and distributed architecture.",
+        "Real-time collaborative notes app with event-driven backend and distributed architecture, with the support for creating public/private notes room.",
       tech: [
         "Python",
         "FastAPI",
@@ -319,9 +319,9 @@ const App = () => {
       image: "crypto_compression_pipeline.png",
     },
     {
-      title: "Customer Relationship Management",
+      title: "CRM",
       description:
-        "CRM app built with Python & Django, supporting CRUD operations to manage customer records efficiently.",
+        "Customer Relationship Management (CRM) app built with Python & Django, supporting CRUD operations to manage customer records efficiently.",
       tech: ["Python", "Django", "HTML", "CRM"],
       github: "https://github.com/deluxe-wizard-seven/crm",
       image: "crm.png",
@@ -944,51 +944,44 @@ const App = () => {
                 key={index}
                 className={`${themeClasses.cardBg} rounded-xl shadow-lg border ${themeClasses.border} overflow-hidden hover:shadow-xl transform hover:scale-105 transition-all duration-300 flex flex-col`}
               >
-                {/*
+                <a
+                  key={index}
+                  href={project.github}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  {/*
                 <div
                   className={`h-48 bg-gradient-to-br ${currentAccent.accent}`}
                 ></div>
                */}
 
-                <img
-                  src={project.image}
-                  alt={project.title}
-                  className="h-48 w-full object-cover"
-                />
+                  <img
+                    src={project.image}
+                    alt={project.title}
+                    className="h-48 w-full object-cover"
+                  />
 
-                <div className="p-6 flex-1 flex flex-col">
-                  <h3 className="text-xl font-semibold mb-3">
-                    {project.title}
-                  </h3>
-                  <p className={`${themeClasses.textSecondary} mb-4 flex-1`}>
-                    {project.description}
-                  </p>
+                  <div className="p-6 flex-1 flex flex-col">
+                    <h3 className="text-xl font-semibold mb-3">
+                      {project.title}
+                    </h3>
+                    <p className={`${themeClasses.textSecondary} mb-4 flex-1`}>
+                      {project.description}
+                    </p>
 
-                  <div className="flex flex-wrap gap-2 mb-4">
-                    {project.tech.map((tech) => (
-                      <span
-                        key={tech}
-                        className={`px-2 py-1 text-xs rounded-full bg-gradient-to-r ${currentAccent.accent} text-white`}
-                      >
-                        {tech}
-                      </span>
-                    ))}
+                    <div className="flex flex-wrap gap-2 mb-4">
+                      {project.tech.map((tech) => (
+                        <span
+                          key={tech}
+                          className={`px-2 py-1 text-xs rounded-full bg-gradient-to-r ${currentAccent.accent} text-white`}
+                        >
+                          {tech}
+                        </span>
+                      ))}
+                    </div>
                   </div>
-
-                  <div className="mt-auto pt-4">
-                    <a
-                      href={project.github}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className={`flex items-center justify-center space-x-2 text-sm ${themeClasses.textSecondary} transition-colors icon-shimmy-parent`}
-                    >
-                      <div className="icon-shimmy">
-                        <Github size={16} />
-                      </div>
-                      <span>Code</span>
-                    </a>
-                  </div>
-                </div>
+                </a>
               </div>
             ))}
           </div>
