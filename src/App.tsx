@@ -774,7 +774,9 @@ const App = () => {
 
               <div className="flex space-x-4">
                 <a
-                  href="#"
+                  href={github}
+                  target="_blank"
+                  rel="noopener noreferrer"
                   className={`p-3 rounded-lg bg-gradient-to-r ${currentAccent.accent} text-white hover:shadow-lg transform hover:scale-105 transition-all duration-200`}
                 >
                   <div className="icon-shimmy">
@@ -782,7 +784,9 @@ const App = () => {
                   </div>
                 </a>
                 <a
-                  href="#"
+                  href={linkedin}
+                  target="_blank"
+                  rel="noopener noreferrer"
                   className={`p-3 rounded-lg bg-gradient-to-r ${currentAccent.accent} text-white hover:shadow-lg transform hover:scale-105 transition-all duration-200`}
                 >
                   <div className="icon-shimmy">
@@ -790,7 +794,9 @@ const App = () => {
                   </div>
                 </a>
                 <a
-                  href="#"
+                  href={`mailto:${email}`}
+                  target="_blank"
+                  rel="noopener noreferrer"
                   className={`p-3 rounded-lg bg-gradient-to-r ${currentAccent.accent} text-white hover:shadow-lg transform hover:scale-105 transition-all duration-200`}
                 >
                   <div className="icon-shimmy">
@@ -944,11 +950,11 @@ const App = () => {
                 ></div>
                */}
 
-              <img
-      src={project.image}
-      alt={project.title}
-      className="h-48 w-full object-cover"
-    />
+                <img
+                  src={project.image}
+                  alt={project.title}
+                  className="h-48 w-full object-cover"
+                />
 
                 <div className="p-6 flex-1 flex flex-col">
                   <h3 className="text-xl font-semibold mb-3">
@@ -972,6 +978,8 @@ const App = () => {
                   <div className="mt-auto pt-4">
                     <a
                       href={project.github}
+                      target="_blank"
+                      rel="noopener noreferrer"
                       className={`flex items-center justify-center space-x-2 text-sm ${themeClasses.textSecondary} transition-colors icon-shimmy-parent`}
                     >
                       <div className="icon-shimmy">
@@ -1009,6 +1017,8 @@ const App = () => {
               <div className="space-y-4 cursor-pointer">
                 <a
                   href={`mailto:${email}`}
+                  target="_blank"
+                  rel="noopener noreferrer"
                   className="flex items-center space-x-4 icon-shimmy-parent cursor-pointer hover:opacity-80 transition-opacity"
                 >
                   <div className="flex items-center space-x-4 icon-shimmy-parent">
@@ -1025,6 +1035,8 @@ const App = () => {
 
                 <a
                   href={github}
+                  target="_blank"
+                  rel="noopener noreferrer"
                   className="flex items-center space-x-4 icon-shimmy-parent cursor-pointer hover:opacity-80 transition-opacity"
                 >
                   <div className="flex items-center space-x-4 icon-shimmy-parent">
@@ -1041,6 +1053,8 @@ const App = () => {
 
                 <a
                   href={linkedin}
+                  target="_blank"
+                  rel="noopener noreferrer"
                   className="flex items-center space-x-4 icon-shimmy-parent cursor-pointer hover:opacity-80 transition-opacity"
                 >
                   <div className="flex items-center space-x-4 icon-shimmy-parent">
