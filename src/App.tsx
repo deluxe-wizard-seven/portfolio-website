@@ -275,14 +275,7 @@ const App = () => {
         "JavaScript",
       ],
       github: "https://github.com/deluxe-wizard-seven/collaborative-notes",
-    },
-    {
-      title: "Book Inventory Management System",
-      description:
-        "A full-stack MERN app to manage book inventory with CRUD operations, scalable APIs and a responsive UI for easy tracking and search.",
-      tech: ["MongoDB", "Express.js", "React", "Node.js"],
-      github:
-        "https://github.com/deluxe-wizard-seven/book-inventory-management-system",
+      image: "collaborative_notes.png",
     },
     {
       title: "Portfolio Website (this one)",
@@ -297,6 +290,16 @@ const App = () => {
         "Portfolio",
       ],
       github: "https://github.com/deluxe-wizard-seven/portfolio-website",
+      image: "portfolio_website.png",
+    },
+    {
+      title: "Book Inventory Management System",
+      description:
+        "A full-stack MERN app to manage book inventory with CRUD operations, scalable APIs and a responsive UI for easy tracking and search.",
+      tech: ["MongoDB", "Express.js", "React", "Node.js"],
+      github:
+        "https://github.com/deluxe-wizard-seven/book-inventory-management-system",
+      image: "book_inventory_management_system.png",
     },
     {
       title: "Crypto-Compression Pipeline",
@@ -313,6 +316,7 @@ const App = () => {
         "Enigma Machine",
       ],
       github: "https://github.com/deluxe-wizard-seven/crypto-compress-pipeline",
+      image: "crypto_compression_pipeline.png",
     },
     {
       title: "Customer Relationship Management",
@@ -320,6 +324,7 @@ const App = () => {
         "CRM app built with Python & Django, supporting CRUD operations to manage customer records efficiently.",
       tech: ["Python", "Django", "HTML", "CRM"],
       github: "https://github.com/deluxe-wizard-seven/crm",
+      image: "crm.png",
     },
     {
       title: "Flappy Plane",
@@ -327,6 +332,7 @@ const App = () => {
         "Flappy Bird–style game built with Python & Pygame, featuring simple controls and endless gameplay.",
       tech: ["Python", "Pygame", "Game"],
       github: "https://github.com/deluxe-wizard-seven/flappy-plane",
+      image: "flappy_plane.png",
     },
   ];
 
@@ -937,6 +943,12 @@ const App = () => {
                   className={`h-48 bg-gradient-to-br ${currentAccent.accent}`}
                 ></div>
                */}
+
+              <img
+      src={project.image}
+      alt={project.title}
+      className="h-48 w-full object-cover"
+    />
 
                 <div className="p-6 flex-1 flex flex-col">
                   <h3 className="text-xl font-semibold mb-3">
