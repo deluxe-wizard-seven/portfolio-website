@@ -932,9 +932,12 @@ const App = () => {
                 key={index}
                 className={`${themeClasses.cardBg} rounded-xl shadow-lg border ${themeClasses.border} overflow-hidden hover:shadow-xl transform hover:scale-105 transition-all duration-300 flex flex-col`}
               >
+                {/*
                 <div
                   className={`h-48 bg-gradient-to-br ${currentAccent.accent}`}
                 ></div>
+               */}
+
                 <div className="p-6 flex-1 flex flex-col">
                   <h3 className="text-xl font-semibold mb-3">
                     {project.title}
