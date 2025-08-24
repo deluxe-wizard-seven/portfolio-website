@@ -676,7 +676,11 @@ const App = () => {
                 <div
                   className={`w-full h-full rounded-full ${themeClasses.cardBg} flex items-center justify-center text-4xl font-bold`}
                 >
-                  DB
+                  <img
+                    src="profile_picture.jpeg"
+                    alt="Profile Picture"
+                    className="w-full h-full rounded-full object-cover"
+                  />
                 </div>
               </div>
             </div>
