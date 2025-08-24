@@ -20,6 +20,7 @@ const App = () => {
 
   const slugs = [
     "markdown",
+    "celery",
     "googlecloud",
     "streamlit",
     "pypi",
@@ -343,17 +344,20 @@ const App = () => {
       period: "April, 2023 - Present",
       location: "Remote",
       description:
-        "Design, build and deploy scalable backend and cloud-based systems with microservices architecture, integrating AI/ML and real-time collaboration. Lead a 5–7 member team, mentor developers and set coding standards for high-performance web and AI applications, primarily working with AWS, GCP and Python.",
+        "Designed, built & deployed scalable backend & cloud-based systems with microservices architecture, integrating AI/ML & real-time collaboration, for a high-performance web & AI application, primarily working with AWS, GCP & Python.",
       achievements: [
-        "Led full-cycle product development for a complex, feature-rich web application at an early-stage startup — from MVP design to production deployment — owning backend systems on AWS and GCP, as well as infrastructure, DevOps and ML integrations.",
-        "Pioneered architecture decisions that scaled the platform to handle 50k+ monthly requests with high availability, leveraging serverless and containerized services.",
-        "Integrated advanced media workflows, including real-time group audio collaboration, recording and publishing across multiple platforms, enhancing user engagement and retention.",
-        "Delivered AI-driven features using a blend of Generative AI models, LLMs and speech enhancement pipelines, enabling automated content creation, categorization and search at scale.",
-        "Streamlined deployments through robust CI/CD pipelines across AWS and GCP, reducing release cycles by over 80% while maintaining production stability.",
-        "Engineered cross-cloud orchestration with Docker, Kubernetes and managed services (ECS, EKS, GKE), enabling modular, fault-tolerant system components.",
-        "Optimized backend performance with intelligent caching, query optimisation and async processing, reducing latency by up to 40%.",
-        "Ensured security and reliability by implementing proactive vulnerability patching, data consistency checks and robust authentication/authorization flows.",
-        "Mentored and coordinated a multi-disciplinary team, fostering a collaborative environment that consistently met ambitious deadlines in a high-pressure startup context.",
+        "Led backend development & cloud infrastructure (AWS/GCP) for a production app with 10+ core features.",
+        "Implemented Google OAuth 2.0, Apple SSO & Facebook SSO for secure authentication, boosting user sign-ups by 47%.",
+        "Designed & implemented Stripe subscription system (incl. trials) in production for smooth transactions.",
+        "Architected scalable system design & microservices ensuring high availability, reliability & performance & low latency.",
+        "Migrated ML workloads from AWS EC2 –> ECS, cutting infrastructure costs by 40%.",
+        "Automated deployments with CI/CD pipelines (GitHub Actions, Docker, Cloud Build) enabling zero-downtime deployments.",
+        "Built real-time collaboration features (WebSockets –> Socket.IO) with Redis, scaling from MVP to thousands of concurrent sessions.",
+        "Developed LiveKit-based AI Voice Agent system supporting multi-user audio rooms with live transcription & recording, designed for scalable real-time collaboration.",
+        "Revamped audio editing features & processing flows, delivering a 66.7% increase in performance efficiency.",
+        "Streamlined PostgreSQL & NoSQL (Redis, AWS DynamoDB, GCP Firestore) on AWS/GCP, reducing storage 35% & latency 50%.",
+        "Implemented automated RSS feed publishing for podcasts to streamline content distribution.",
+        "Resolved 100+ critical backend production issues, improving system stability, security & reducing average incident response time by 50%.",
       ],
       url: "https://www.koolio.ai/",
     },
@@ -363,12 +367,12 @@ const App = () => {
       period: "December, 2022 - May, 2023",
       location: "Remote",
       description:
-        "Owned and developed two microservices — the Due Diligence service in a Credit Risk Management Framework and a Data Forecasting service — using Spring Boot (Java), AWS QuickSight and AWS Amplify. Designed scalable architectures, optimised data pipelines, integrated interactive dashboards and mentored 5 team members to ensure high-quality delivery.",
+        "Owned & developed two microservices — Due Diligence service in a Credit Risk Management Framework & Data Forecasting service — using Spring Boot (Java), AWS QuickSight & Amplify. Designed scalable architectures, optimised data pipelines & integrated interactive dashboards.",
       achievements: [
-        "Architected the backend and database schema for a Due Diligence microservice within a Credit Risk Management Framework, ensuring scalability and maintainability.",
-        "Optimized database performance, enhancing query execution and data processing algorithms to reduce latency by 50%.",
-        "Developed a data forecasting and prediction microservice, integrating model outputs with AWS QuickSight via S3 and Athena to deliver dynamic, interactive business insights.",
-        "Implemented frontend features with React, Axios and Redux, leveraging React Hooks for efficient state management and seamless API integration between backend and frontend systems.",
+        "Delivered interactive forecasting dashboards via AWS QuickSight, S3 & Athena for data-driven insights.",
+        "Architected scalable backend on Spring Boot & database schemas with MySQL, ensuring maintainability & efficient data flows.",
+        "Optimized database performance, improving query execution & reducing latency by 50%.",
+        "Contributed to frontend React, Redux & Axios, building features with React Hooks for smooth API integrations.",
       ],
       url: "https://www.baselpractitioners.com/",
     },
@@ -376,100 +380,86 @@ const App = () => {
 
   const skills = [
     {
-      category: "Backend",
+      category: "Programming & Backend",
       items: [
-        "Java",
-        "Spring Boot",
         "Python",
         "Flask",
         "FastAPI",
         "Django",
         "Django REST",
-        "TypeScript",
-        "JavaScript",
+        "Java",
+        "Spring Boot",
         "Node.js",
         "Express.js",
-        "Socket.IO",
-        "Stripe API (Payments)",
-        "OAuth 2.0",
-        "RESTful APIs",
+        "Axios",
+        "TypeScript",
+        "REST APIs",
         "GraphQL",
         "gRPC",
         "tRPC",
+        "SQL",
+        "PostgreSQL",
+        "MySQL",
+        "MariaDB",
+        "NoSQL",
+        "MongoDB",
+        "AWS DynamoDB",
+        "GCP Firestore",
+        "Caching",
+        "Redis",
+        "AWS ElastiCache",
+        "GCP Memorystore",
+        "Memcached",
+        "C",
+        "C++",
         "Kotlin",
       ],
     },
     {
-      category: "Database",
-      items: [
-        "SQL",
-        "NoSQL",
-        "PostgreSQL",
-        "MongoDB",
-        "MySQL",
-        "AWS DynamoDB",
-        "GCP Firestore",
-        "MariaDB",
-        "Redis",
-        "SQLite3",
-        "Prisma",
-      ],
-    },
-    {
-      category: "Clouds and DevOps",
+      category: "Cloud & DevOps",
       items: [
         "AWS",
         "GCP",
-        "Buildpacks",
         "Docker",
         "Docker Compose",
+        "Podman",
+        "CI/CD",
         "GitHub Actions",
+        "GitLab CI",
         "GCP Cloud Build",
+        "GCP Firebase",
         "AWS CloudFormation",
-      ],
-    },
-    {
-      category: "ML/AI Integration",
-      items: [
-        "LiveKit",
-        "ChatGPT",
-        "SpeechBrain",
-        "AudioGen",
-        "MusicGen",
-        "Kandinsky",
-        "DALL·E·2",
-        "Stable Diffusion",
-        "Replicate",
-      ],
-    },
-    {
-      category: "Tools and Platforms",
-      items: [
-        "Linux",
-        "Nginx",
+        "AWS Amplify",
+        "Buildpacks",
+        "Monitoring",
+        "AWS CloudWatch",
         "Git",
         "GitHub",
-        "AWS CLI",
-        "GCloud CLI",
-        "Maven",
+        "GitLab",
+        "Linux",
+        "Nginx",
         "Bash",
-        "UV",
-        "NPM",
+        "Maven",
+        "uv",
+        "npm",
         "Postman",
-        "cURL",
-        "HTTPie",
       ],
     },
     {
-      category: "Frontend",
+      category: "System Design & Architecture",
       items: [
-        "React.js",
-        "Redux",
-        "Axios",
-        "Tailwind CSS",
-        "Next.js",
-        "HTML5",
-        "CSS3",
+        "Microservices Architecture",
+        "Scalable Distributed Systems",
+        "Stripe Payments",
+        "AI Voice Agents",
+        "LiveKit",
+        "Real-Time Collaboration",
+        "WebSockets",
+        "Socket.IO",
+        "Authentication & Authorization",
+        "OAuth 2.0",
+        "Apple SSO",
+        "Facebook SSO",
       ],
     },
   ];
@@ -535,21 +525,6 @@ const App = () => {
           opacity: ${skillsVisible ? 1 : 0};
         }
        
-        .skill-card-4 {
-          animation: ${skillsVisible ? "fadeInScale 0.8s ease-out 0.9s forwards" : "none"};
-          opacity: ${skillsVisible ? 1 : 0};
-        }
-       
-        .skill-card-5 {
-          animation: ${skillsVisible ? "fadeInScale 0.8s ease-out 1.2s forwards" : "none"};
-          opacity: ${skillsVisible ? 1 : 0};
-        }
-       
-        .skill-card-6 {
-          animation: ${skillsVisible ? "fadeInScale 0.8s ease-out 1.5s forwards" : "none"};
-          opacity: ${skillsVisible ? 1 : 0};
-        }
-
         .project-card-1 {
           animation: ${projectsVisible ? "fadeInScale 0.8s ease-out forwards" : "none"};
           opacity: ${projectsVisible ? 1 : 0};
@@ -702,7 +677,7 @@ const App = () => {
             <p
               className={`text-xl md:text-2xl mb-8 ${themeClasses.textSecondary}`}
             >
-              Full Stack Developer | Cloud & DevOps Enthusiast
+              Backend Developer | Cloud & DevOps Enthusiast
             </p>
 
             <p
@@ -749,7 +724,7 @@ const App = () => {
           <div className="grid md:grid-cols-2 gap-12 items-start">
             <div>
               <p className={`text-lg mb-6 ${themeClasses.textSecondary}`}>
-                I’m a <b>full-stack developer</b> with{" "}
+                I’m a <b>backend developer</b> with{" "}
                 <b>2+ years of experience</b> building <b>scalable web apps</b>,{" "}
                 <b>automating cloud deployments</b> and{" "}
                 <b>integrating AI features into production</b>. I specialize in{" "}
@@ -783,6 +758,7 @@ const App = () => {
                     <Github size={20} />
                   </div>
                 </a>
+
                 <a
                   href={linkedin}
                   target="_blank"
@@ -793,6 +769,7 @@ const App = () => {
                     <Linkedin size={20} />
                   </div>
                 </a>
+
                 <a
                   href={`mailto:${email}`}
                   target="_blank"
@@ -801,6 +778,16 @@ const App = () => {
                 >
                   <div className="icon-shimmy">
                     <Mail size={20} />
+                  </div>
+                </a>
+
+                <a
+                  href="resume_dipto_bhattacharjee.pdf"
+                  download="Dipto_Bhattacharjee_Resume.pdf"
+                  className={`p-3 rounded-lg bg-gradient-to-r ${currentAccent.accent} text-white hover:shadow-lg transform hover:scale-105 transition-all duration-200`}
+                >
+                  <div className="icon-shimmy">
+                    <Download size={20} />
                   </div>
                 </a>
               </div>
