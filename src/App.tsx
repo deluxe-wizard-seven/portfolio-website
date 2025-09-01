@@ -679,7 +679,7 @@ const App = () => {
             <p
               className={`text-xl md:text-2xl mb-8 ${themeClasses.textSecondary}`}
             >
-              Backend Developer | Cloud & DevOps Enthusiast
+              Backend Engineer | Cloud & DevOps Enthusiast
             </p>
 
             <p
