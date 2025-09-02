@@ -660,7 +660,7 @@ const App = () => {
                   className={`w-full h-full rounded-full ${themeClasses.cardBg} flex items-center justify-center text-4xl font-bold`}
                 >
                   <img
-                    src="profile_picture.jpeg"
+                    src="profile_picture.png"
                     alt="Profile Picture"
                     className="w-full h-full rounded-full object-cover"
                   />
